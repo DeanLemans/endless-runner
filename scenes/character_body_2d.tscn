@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://jlae2fyx830r"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_0xso5"]
+[ext_resource type="Texture2D" uid="uid://c5c3tcoqcwpi" path="res://img/banana.jpg" id="2_lcb27"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tk3ib"]
+size = Vector2(79, 79)
+
+[node name="da player" type="CharacterBody2D"]
+z_index = 1
+script = ExtResource("1_0xso5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(36.5, 37.5)
+shape = SubResource("RectangleShape2D_tk3ib")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.0975936, 0.0975936)
+texture = ExtResource("2_lcb27")
+centered = false
