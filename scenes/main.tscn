@@ -16,10 +16,4 @@ script = ExtResource("1_p0khf")
 position = Vector2(576, 324)
 
 [node name="Area2D" parent="." instance=ExtResource("3_4gmjo")]
-position = Vector2(755, 492)
-
-[node name="Area2D2" parent="." instance=ExtResource("3_4gmjo")]
-position = Vector2(516, 492)
-
-[node name="Area2D3" parent="." instance=ExtResource("3_4gmjo")]
-position = Vector2(1006, 492)
+position = Vector2(575, 497)
