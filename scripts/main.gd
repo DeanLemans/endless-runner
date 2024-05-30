@@ -47,7 +47,7 @@ func generate_obst():
 		if sprite != null and sprite.texture != null:
 			var obst_height = sprite.texture.get_height()
 			var obst_scale = sprite.scale
-			var obst_x : int = screen_size.x + $Camera2D.position.x
+			var obst_x : int = $Camera2D.position.x + randi_range(250, 550)
 			var obst_y : int = screen_size.y - ground_height - (obst_height * obst_scale.y) / 5
 			
 			last_obst = obst
@@ -60,4 +60,3 @@ func add_obst(obst, x, y):
 	add_child(obst)
 	obstacles.append(obst)
 	print("Obstacle at: ", Vector2(x, y))
-

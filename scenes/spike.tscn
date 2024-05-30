@@ -11,7 +11,7 @@ script = ExtResource("1_o6x2y")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
 position = Vector2(-43, -382)
-scale = Vector2(5.6875, 41.5625)
+scale = Vector2(5.6875, 40.125)
 texture = ExtResource("1_n1sa2")
 centered = false
 
