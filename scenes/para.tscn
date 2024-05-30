@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://cyiglhf3qgaia"]
+
+[ext_resource type="Texture2D" uid="uid://cgdp40ouslxh1" path="res://img/paralax/j3.png" id="1_88k8f"]
+[ext_resource type="Texture2D" uid="uid://dthrym15l4dha" path="res://img/paralax/j2.png" id="2_7e68y"]
+[ext_resource type="Texture2D" uid="uid://im8penlewyi0" path="res://img/paralax/j1.png" id="3_r8b7r"]
+
+[node name="para" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_88k8f")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(1.1, 1.1)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer2"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("2_7e68y")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(1.1, 1.1)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("3_r8b7r")
+centered = false

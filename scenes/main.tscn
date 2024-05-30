@@ -1,12 +1,15 @@
-[gd_scene load_steps=5 format=3 uid="uid://bxfcda4sr8odg"]
+[gd_scene load_steps=6 format=3 uid="uid://bxfcda4sr8odg"]
 
 [ext_resource type="PackedScene" uid="uid://jlae2fyx830r" path="res://scenes/character_body_2d.tscn" id="1_h5qfs"]
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_p0khf"]
+[ext_resource type="PackedScene" uid="uid://cyiglhf3qgaia" path="res://scenes/para.tscn" id="2_1muc2"]
 [ext_resource type="PackedScene" uid="uid://bhoyljw41hvan" path="res://scenes/ground.tscn" id="2_6i0to"]
 [ext_resource type="PackedScene" uid="uid://bmtldqj6ulvxn" path="res://scenes/time.tscn" id="4_mpuiw"]
 
 [node name="main" type="Node"]
 script = ExtResource("1_p0khf")
+
+[node name="para" parent="." instance=ExtResource("2_1muc2")]
 
 [node name="Ground" parent="." instance=ExtResource("2_6i0to")]
 
@@ -14,9 +17,9 @@ script = ExtResource("1_p0khf")
 
 [node name="time" parent="CharacterBody2D" instance=ExtResource("4_mpuiw")]
 texture_filter = 1
-offset_left = -50.0
+offset_left = -43.0
 offset_top = -54.0
-offset_right = -50.0
+offset_right = -43.0
 offset_bottom = -54.0
 scale = Vector2(2, 2)
 
