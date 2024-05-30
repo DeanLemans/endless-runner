@@ -15,6 +15,6 @@ position = Vector2(36.5, 37.5)
 shape = SubResource("RectangleShape2D_tk3ib")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.0975936, 0.0975936)
+scale = Vector2(0.0975936, 0.102941)
 texture = ExtResource("2_lcb27")
 centered = false
