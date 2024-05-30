@@ -10,14 +10,14 @@ script = ExtResource("1_o6x2y")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(-43, -457)
-scale = Vector2(5.6875, 46.25)
+position = Vector2(-43, -382)
+scale = Vector2(5.6875, 41.5625)
 texture = ExtResource("1_n1sa2")
 centered = false
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2(-18, 199.889)
-scale = Vector2(1, 5.1864)
-polygon = PackedVector2Array(18, -3, 31, -35, 37, -44, 43, -44, 49, -36, 55, -19, 61, -3, 61, 13, -25, 13, -25, -3, -20, -18, -14, -35, -8, -44, -2, -44, 4, -35)
+position = Vector2(-18, 255.791)
+scale = Vector2(1, 4.85746)
+polygon = PackedVector2Array(18, -3, 31, -35, 37, -44, 43, -44, 49, -36, 55, -19, 61, -3, -25, -3, -20, -18, -14, -35, -8, -44, -2, -44, 4, -35)
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
