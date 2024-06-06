@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://cki31m51yqwvs"]
+
+[ext_resource type="Script" path="res://scenes/score_node.gd" id="1_jlfu6"]
+[ext_resource type="Theme" uid="uid://dbh6mhfw3bvcr" path="res://scenes/score_theme.tres" id="1_q7m42"]
+
+[node name="score_node" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_q7m42")
+script = ExtResource("1_jlfu6")
+
+[node name="score" type="Label" parent="."]
+layout_mode = 0
+offset_right = 205.0
+offset_bottom = 75.0
+theme = ExtResource("1_q7m42")
+text = "Score: "
+
+[node name="high-score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 912.0
+offset_right = 1142.0
+offset_bottom = 75.0
+theme = ExtResource("1_q7m42")
+text = "High-score: "
