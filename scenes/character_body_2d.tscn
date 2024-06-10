@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://jlae2fyx830r"]
+[gd_scene load_steps=6 format=3 uid="uid://jlae2fyx830r"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_0xso5"]
 [ext_resource type="Texture2D" uid="uid://c5c3tcoqcwpi" path="res://img/banana.jpg" id="2_lcb27"]
 [ext_resource type="Texture2D" uid="uid://df5la1n5tcfsk" path="res://img/border.png" id="3_1tboi"]
+[ext_resource type="PackedScene" uid="uid://cki31m51yqwvs" path="res://scenes/score_node.tscn" id="4_xcc4a"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tk3ib"]
 size = Vector2(79, 79)
@@ -21,7 +22,13 @@ texture = ExtResource("2_lcb27")
 centered = false
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
-position = Vector2(-89, -54)
-scale = Vector2(0.227344, 0.0473588)
+position = Vector2(-89, -152)
+scale = Vector2(0.227344, 0.136612)
 texture = ExtResource("3_1tboi")
 centered = false
+
+[node name="score_node" parent="." instance=ExtResource("4_xcc4a")]
+offset_left = -44.0
+offset_top = -132.0
+offset_right = -44.0
+offset_bottom = -132.0
