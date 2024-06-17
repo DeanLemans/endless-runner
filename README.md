@@ -1,6 +1,6 @@
 # My ***Cool*** endless runner
 
-## [Download page](https://github.com/DeanLemans/endless-runner/releases/)
+## [Download page](https://github.com/DeanLemans/endless-runner/releases)
 
 ## Contributors:
 ### Main(and only) contributor
