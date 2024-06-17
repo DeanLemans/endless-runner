@@ -1,0 +1,15 @@
+{
+	"disabled_build_options": {
+		"disable_3d": true,
+		"disable_3d_physics": true,
+		"module_text_server_fb_enabled": true,
+		"openxr": false
+	},
+	"disabled_classes": [
+		"NavigationAgent3D",
+		"Node3D",
+		"World3D",
+		"WorldEnvironment"
+	],
+	"type": "build_profile"
+}
