@@ -1,3 +1,5 @@
+# i will finish this... someday.
+
 # My ***Cool*** endless runner
 
 ## [Download page](https://github.com/DeanLemans/endless-runner/releases)
